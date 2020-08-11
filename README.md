@@ -52,6 +52,7 @@ Com esse pequeno curso você consegue entender melhor como funciona a base da li
 2. [Tipos Primitivos](02-Basico/02-TiposPrimitivos.md)
 3. [Variáveis e Constantes](02-Basico/03-VariáveisEConstantes.md)
 4. [Operadores](02-Basico/04-Operadores.md)
+5. [Estruturas Condicionais](02-Basico/05-EstruturasCondicionais.md)
 
 <!-- CONTRIBUTING -->
 
