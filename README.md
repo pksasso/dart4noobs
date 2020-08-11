@@ -9,9 +9,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">Título do seu 4noobs</h2>
-
-  <h1 align="center"><img src="/.github/deno.svg" alt="Imagem da linguagem" width="120"></h1>
+  <h1 align="center"><img src="/.github/dart4noobs.png" alt="Imagem da linguagem" width="260"></h1>
   
   <p align="center">
     <br />
@@ -27,7 +25,9 @@
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-Explique um pouco sobre o 4noobs que está desenvolvendo.
+O Dart é uma linguagem que está com um bom crescimento graças o Flutter, um framework feito pelo google que utiliza a linguagem Dart.
+
+Com esse pequeno curso você consegue entender melhor como funciona a base da linguagem e se prepara para futuramente começar a usar Flutter em seus projetos.
 
 <!-- ROADMAP OF PROJECT -->
 
@@ -60,12 +60,12 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- **Nome Completo** - _Especialidade_ - [@nickname](seutwitter)
+- Patrick Sasso Santana - Front End
 
 ---
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src="../.github/footer_4noobs.svg" width="380">
+    <img src="/.github/footer_4noobs.svg" width="380">
   </a>
 </p>
