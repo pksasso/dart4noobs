@@ -25,6 +25,7 @@
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
+
 O Dart é uma linguagem que está com um bom crescimento graças o Flutter, um framework feito pelo google que utiliza a linguagem Dart.
 
 Com esse pequeno curso você consegue entender melhor como funciona a base da linguagem e se prepara para futuramente começar a usar Flutter em seus projetos.
@@ -33,18 +34,23 @@ Com esse pequeno curso você consegue entender melhor como funciona a base da li
 
 ## ROADMAP
 
-- [Conteúdo 1](link-primeira-parte)
-- [Conteúdo 2](link-segunda-parte)
-- [Conteúdo 3](link-terceira-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  	- [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
-- [Conteúdo 4](link-quarta-parte)
-- [Conteúdo 5](link-quinta-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
-  
-  
+### Introdução
+
+0. [História](00-Introducao/0-Historia.md)
+
+### Ambiente
+
+0. [Ambiente Linux](01-Ambiente/0-AmbienteLinux.md)
+1. [Ambiente Windows](01-Ambiente/1-AmbienteWindows.md)
+2. [Ambiente macOS](01-Ambiente/2-AmbienteMacOS.md)
+3. [Ambiente Online](01-Ambiente/3-AmbienteOnline.md)
+
+### Básico
+
+0. [Introdução](02-Basico/00-Introdução.md)
+1. [Sintaxe](02-Basico/01-Sintaxe.md)
+2. [Tipos Primitivos](02-Basico/02-TiposPrimitivos.md)
+
 <!-- CONTRIBUTING -->
 
 ## Como Contribuir
