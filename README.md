@@ -70,7 +70,7 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- Patrick Sasso Santana - Front End
+- Patrick Sasso - Front End - [pksasso](https://github.com/pksasso)
 
 ---
 
