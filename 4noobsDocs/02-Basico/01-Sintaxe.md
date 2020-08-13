@@ -25,9 +25,9 @@ desta maneira
 
 <p align="center">
   <a href="00-Introducao.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
   <a href="02-TiposPrimitivos.md">
-    <img src="/4noobsAssets/proximo.svg" height=35>
+    <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>

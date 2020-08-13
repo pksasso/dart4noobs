@@ -24,9 +24,9 @@ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
 Ou entao adicione manualmente `export PATH="$PATH:/usr/lib/dart/bin` ao seu `.bashrc` ou ou `.zshrc` .
 <p align="center">
   <a href="../00-Introducao/0-Historia.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
   <a href="1-AmbienteWindows.md">
-    <img src="/4noobsAssets/proximo.svg" height=35>
+    <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>
