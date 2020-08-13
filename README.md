@@ -47,14 +47,14 @@ Com esse pequeno curso você consegue entender melhor como funciona a base da li
 
 ### Básico
 
-0. [Introdução](./4noobsDocs/02-Basico/00-Introdução.md)
+0. [Introdução](./4noobsDocs/02-Basico/00-Introducao.md)
 1. [Sintaxe](./4noobsDocs/02-Basico/01-Sintaxe.md)
 2. [Tipos Primitivos](./4noobsDocs/02-Basico/02-TiposPrimitivos.md)
-3. [Variáveis e Constantes](./4noobsDocs/02-Basico/03-VariáveisEConstantes.md)
+3. [Variáveis e Constantes](./4noobsDocs/02-Basico/03-VariaveisEConstantes.md)
 4. [Operadores](./4noobsDocs/02-Basico/04-Operadores.md)
 5. [Estruturas Condicionais](./4noobsDocs/02-Basico/05-EstruturasCondicionais.md)
-6. [Estruturas de Repetição](./4noobsDocs/02-Basico/06-EstruturarDeRepetição.md)
-7. [Funções](./4noobsDocs/02-Basico/07-Funções.md)
+6. [Estruturas de Repetição](./4noobsDocs/02-Basico/06-EstruturasDeRepeticao.md)
+7. [Funções](./4noobsDocs/02-Basico/07-Funcoes.md)
 
 <!-- CONTRIBUTING -->
 
