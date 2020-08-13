@@ -1,4 +1,5 @@
 # 00 - Introdução
+
 ---
 
 ## 1 - Extensão
@@ -27,6 +28,14 @@ printInteger(int umNumero) {
 main() {
   var numero= 42; // Declaraçaõ e inicialização de uma variavel.
   printInteger(numero); // Chamada de uma função.
+}
+```
+
+Para fins didáticos os exemplos dados nesse tutorial serão dados de forma que só será escrito o código a ser explicado, então caso queira testar alguma coisa dos exemplos lembre de sempre colocar seu código em um `main` como no exemplo abaixo. Não se preocupe, iremos explicar o que é esse `main` mais pra frente
+
+```dart
+main() {
+  //Seu código aqui !!!
 }
 ```
 

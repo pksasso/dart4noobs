@@ -1,8 +1,10 @@
 # 03 - Variáveis e Constantes
 
+Em programação quando você quer guardar informações para seu programa usar você precisará de variáveis e constantes. Elas são em poucas palavras um espaço onde você pode guardar coisas como um nome, um número ou uma lista, para poder usar depois.
+
 # Variáveis
 
-Em dart quando se quer guardar um dado que pode ser alterado ao decorrer da aplicação usamos variáveis, para definir uma variável basta colocar `var` e o nome que você quer dar a ela
+No dart quando se quer guardar um dado que pode ser alterado ao decorrer da aplicação usamos variáveis, para definir uma variável basta colocar `var` e o nome que você quer dar a ela
 
 ```dart
 var nome;
@@ -10,7 +12,7 @@ var nome;
 
 Caso não inicialize uma variável como algum valor ela por padrão é iniciada como `null`.
 
-Por padrão quando não é explicitado se algo é `var` ou `const` ela será uma variável. 
+Por padrão quando não é explicitado se algo é `var` ou `const` ela será uma variável.
 
 # Constantes
 
