@@ -133,3 +133,12 @@ print(pessoa['nome']); // João
 ```
 
 Assim como o `Set`, também há uma forma diferente de mexer com eles que veremos no futuro.
+
+<p align="center">
+  <a href="01-Sintaxe.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="03-VariaveisEConstantes">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

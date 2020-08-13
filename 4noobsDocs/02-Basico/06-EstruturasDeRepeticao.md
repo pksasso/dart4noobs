@@ -55,3 +55,12 @@ while( contador < 11){
 ```
 
 É importante notar duas coisas, a primeira é que a variável que ele irá verificar já precisa existir, não é possível criar ela dentro dos parênteses do `while`. A segunda é que no final você deve fazer o incremento do seu contador, pois caso não faça se você prestar atenção irá perceber que para o `while` o contador SEMPRE será menor do que 11, então ele ira rodar até você forçar o fechamento do seu programa.
+
+<p align="center">
+  <a href="05-EstruturasCondicionais.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="07-Funcoes.md">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

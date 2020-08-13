@@ -41,3 +41,12 @@ Apesar de existir a inferência de tipos pode ser bom definir explicitamente qua
 int a = 1;
 const String b = 'he4art';
 ```
+
+<p align="center">
+  <a href="02-TiposPrimitivos.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="04-Operadores.md">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

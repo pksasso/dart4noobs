@@ -29,3 +29,12 @@ main() {
   printInteger(numero); // Chamada de uma função.
 }
 ```
+
+<p align="center">
+  <a href="../01-Ambiente/3-AmbienteOnline.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="01-Sintaxe.md">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

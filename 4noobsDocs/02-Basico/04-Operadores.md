@@ -109,3 +109,12 @@ print( a == b || a == a ); // true,  pois a e b não são igual mas a é igual a
 print( a == b && a == a ); // false, pois o E, os dois lados precisam ser verdade,
 //como a primeira parte já é falsa ela ja retorna false
 ```
+
+<p align="center">
+  <a href="03-VariaveisEConstantes.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="05-EstruturasCondicionais.md">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

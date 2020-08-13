@@ -90,3 +90,12 @@ O `switch` recebe alguma variável que será analisada durante os seus `cases`.
 O `case` verifica se o que o switch recebeu tem o mesmo valor que ele, a marcação de o que esta dentro do case é os `:` , e se você notar tem um comando novo ali, o `break` , no caso do switch ele é super importante pois com não temos chaves aqui pra cada `case` é o `break` que vai dizer que o comando acabou, se não por ele o código irá dar um erro.
 
 No final temos um `default` que em inglês significa uma opção padrão, é ela que era rodar caso nenhum dos `cases` de certo.
+
+<p align="center">
+  <a href="04-Operadores.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+  <a href="06-EstruturasDeRepeticao.md">
+    <img src="/4noobsAssets/proximo.svg" height=35>
+  </a>
+</p>

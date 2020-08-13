@@ -103,3 +103,9 @@ Percebeu algo diferente ?
 Na nossa assinatura da função ( o que está entre os parênteses) também colocamos entre chaves `{ }`, é dessa forma que demonstramos que os parâmetros serão nomeados.
 
 Nossa chamada da função também mudou, agora temos que dizer explicitamente em qual parâmetro vamos colocar nossos dados. Na nossa função criamos o parâmetro nome, então na nossa chamada passaremos o dado assim `diga(nome: 'Seu Nome');` e como estamos especificando para qual parâmetro nosso valor vai podemos chamar na ordem que quisermos, note que o terceiro `print`  inverte a ordem, e antes tínhamos um erro quando fazíamos isso.
+
+<p align="center">
+  <a href="06-EstruturasDeRepeticao.md">
+    <img src="/4noobsAssets/anterior.svg" height=35>
+  </a>
+</p>
