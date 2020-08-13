@@ -2,14 +2,14 @@
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src="/.github/header_4noobs.svg">
+    <img src="/4noobsAssets/header_4noobs.svg">
   </a>
 </p>
 
 <!-- Title -->
 
 <p align="center">
-  <h1 align="center"><img src="/.github/dart4noobs.png" alt="Imagem da linguagem" width="260"></h1>
+  <h1 align="center"><img src="/4noobsAssets/dart4noobs.png" alt="Imagem da linguagem" width="260"></h1>
   
   <p align="center">
     <br />
@@ -77,6 +77,6 @@ são **extremamente apreciadas**
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src="/.github/footer_4noobs.svg" width="380">
+    <img src="/4noobsAssets/footer_4noobs.svg" width="380">
   </a>
 </p>
