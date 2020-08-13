@@ -112,9 +112,9 @@ print( a == b && a == a ); // false, pois o E, os dois lados precisam ser verdad
 
 <p align="center">
   <a href="03-VariaveisEConstantes.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
   <a href="05-EstruturasCondicionais.md">
-    <img src="/4noobsAssets/proximo.svg" height=35>
+    <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>

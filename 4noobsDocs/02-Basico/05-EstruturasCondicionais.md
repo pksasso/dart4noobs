@@ -93,9 +93,9 @@ No final temos um `default` que em inglês significa uma opção padrão, é ela
 
 <p align="center">
   <a href="04-Operadores.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
   <a href="06-EstruturasDeRepeticao.md">
-    <img src="/4noobsAssets/proximo.svg" height=35>
+    <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>

@@ -106,6 +106,6 @@ Nossa chamada da função também mudou, agora temos que dizer explicitamente em
 
 <p align="center">
   <a href="06-EstruturasDeRepeticao.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
 </p>

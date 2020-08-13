@@ -20,9 +20,9 @@ Para instalar baixando um zip bastar entrar [aqui](https://dart.dev/tools/sdk/ar
 
 <p align="center">
   <a href="1-AmbienteLinux.md">
-    <img src="/4noobsAssets/anterior.svg" height=35>
+    <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
   <a href="2-AmbienteMacOS.md">
-    <img src="/4noobsAssets/proximo.svg" height=35>
+    <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>
