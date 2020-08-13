@@ -36,25 +36,25 @@ Com esse pequeno curso você consegue entender melhor como funciona a base da li
 
 ### Introdução
 
-1. [História](/4noobsDocs/00-Introducao/0-Historia.md)
+1. [História](./4noobsDocs/00-Introducao/0-Historia.md)
 
 ### Ambiente
 
-0. [Ambiente Linux](/4noobsDocs/01-Ambiente/0-AmbienteLinux.md)
-1. [Ambiente Windows](/4noobsDocs/01-Ambiente/1-AmbienteWindows.md)
-2. [Ambiente macOS](/4noobsDocs/01-Ambiente/2-AmbienteMacOS.md)
-3. [Ambiente Online](/4noobsDocs/01-Ambiente/3-AmbienteOnline.md)
+0. [Ambiente Linux](./4noobsDocs/01-Ambiente/0-AmbienteLinux.md)
+1. [Ambiente Windows](./4noobsDocs/01-Ambiente/1-AmbienteWindows.md)
+2. [Ambiente macOS](./4noobsDocs/01-Ambiente/2-AmbienteMacOS.md)
+3. [Ambiente Online](./4noobsDocs/01-Ambiente/3-AmbienteOnline.md)
 
 ### Básico
 
-0. [Introdução](/4noobsDocs/02-Basico/00-Introdução.md)
-1. [Sintaxe](/4noobsDocs/02-Basico/01-Sintaxe.md)
-2. [Tipos Primitivos](/4noobsDocs/02-Basico/02-TiposPrimitivos.md)
-3. [Variáveis e Constantes](/4noobsDocs/02-Basico/03-VariáveisEConstantes.md)
-4. [Operadores](/4noobsDocs/02-Basico/04-Operadores.md)
-5. [Estruturas Condicionais](/4noobsDocs/02-Basico/05-EstruturasCondicionais.md)
-6. [Estruturas de Repetição](/4noobsDocs/02-Basico/06-EstruturarDeRepetição.md)
-7. [Funções](/4noobsDocs/02-Basico/07-Funções.md)
+0. [Introdução](./4noobsDocs/02-Basico/00-Introdução.md)
+1. [Sintaxe](./4noobsDocs/02-Basico/01-Sintaxe.md)
+2. [Tipos Primitivos](./4noobsDocs/02-Basico/02-TiposPrimitivos.md)
+3. [Variáveis e Constantes](./4noobsDocs/02-Basico/03-VariáveisEConstantes.md)
+4. [Operadores](./4noobsDocs/02-Basico/04-Operadores.md)
+5. [Estruturas Condicionais](./4noobsDocs/02-Basico/05-EstruturasCondicionais.md)
+6. [Estruturas de Repetição](./4noobsDocs/02-Basico/06-EstruturarDeRepetição.md)
+7. [Funções](./4noobsDocs/02-Basico/07-Funções.md)
 
 <!-- CONTRIBUTING -->
 
