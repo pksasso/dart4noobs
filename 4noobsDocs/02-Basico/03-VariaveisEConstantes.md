@@ -37,6 +37,22 @@ Caso haja algum valor que não vá mudar no programa se usa uma constante, é us
 const pi = 3.14;
 ```
 
+Do mesmo modo que as variáveis, as constantes também podem ser declaradas com `final` ao invés de `const`. A diferença entre `const` e `final` é que `const` é uma constante em tempo de compilação, ou seja, o valor da constante é conhecido em tempo de compilação. Já `final` é uma constante em tempo de execução, ou seja, o valor da constante é conhecido em tempo de execução.
+
+```dart
+main() {
+  const res = multiplicar(2, 2); // gera erro, o resultado da multiplicação não é conhecido antes de executar o programa
+  final x = multiplicar(2, 2); // x = 4
+  x = 10; // gera erro, uma variável 'final' não pode ter seu valor alterado depois de inicializada
+}
+
+// função que retorna o resultado da multiplicação de dois números, apenas para exemplificar
+// mais informações sobre funções no capítulo 7 - Funções
+int multiplicar(int valor1, int valor2) {
+  return valor1 * valor2;
+}
+```
+
 # Inferência de tipos
 
 No dart caso você use `var` ou `const` sem dizer o tipo que será guardado ele ira definir o tipo de acordo com o tipo do valor que for inicializado.

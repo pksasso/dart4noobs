@@ -61,7 +61,7 @@ void main(){//definição da função main
 }
 
 // função com um parametro opcional
-String diga(String nome, [int telefone]){ 
+String diga(String nome, [int? telefone]){ 
 	var result = 'Mensagem enviada por $nome';
 	if(telefone != null){// se o parametro opcional for passado retorna uma msg usando ele
 		return '$result do numero $telefone';
@@ -70,9 +70,25 @@ String diga(String nome, [int telefone]){
 }
 ```
 
-No código acima definimos o `telefone` como opcional, e na nossa função tratamos os dois casos, caso ele seja passado e caso não, um detalhe para se lembrar aqui, quando uma variável não é inicializada por padrão ela recebe `null`, por isso que comparamos `telefone` com `null`
+No código acima definimos o `telefone` como opcional, e na nossa função tratamos os dois casos, caso ele seja passado e caso não, um detalhe para se lembrar aqui, quando uma variável for usada como parâmetro opcional, ela será `nullable`, ou seja, pode ser `null` ou pode conter um valor. Para isso usamos o `?` após o tipo da variável. 
 
-Perceba que se passarmos nossos parâmetros em outra ordem diferente da definida no assinatura da função ( o que está entre os parênteses da nossa função ), teremos um erro, ja que o primeiro parâmetro é uma string e estaremos passando um int e vice versa.
+Também é possível usar de valores `default` para os parâmetros, para isso basta colocar um `=` após o nome do parâmetro e o valor padrão que ele deve ter.
+
+Deste modo, é possível alterar o tipo de `int?` para `int`, removendo o `nullable` e consequentemente remover o `if` da nossa função. 
+
+```dart
+void main(){
+  construirCasa(6); // Foi construída uma casa com 6 portas.
+  construirCasa(); // Foi construída uma casa com 4 portas.
+}
+
+// função com um parametro opcional
+void construirCasa([int quantidadePortas = 4]) {
+  print('Foi construída uma casa com $quantidadePortas portas.');
+}
+```
+
+Perceba que se passarmos nossos parâmetros em outra ordem diferente da definida no assinatura da função ( o que está entre os parênteses da nossa função ), teremos um erro, ja que o primeiro parâmetro é uma `string` e estaremos passando um `int` e vice versa.
 
 Para isso no dart nós temos as funções com parâmetros nomeados.
 
@@ -89,7 +105,7 @@ void main(){//definição da função main
 }
 
 // função com um parametro opcional
-String diga({String nome, int telefone}){ 
+String diga({String? nome, int? telefone}){ 
 	var result = 'Mensagem enviada por $nome';
 	if(telefone != null){// se o parametro opcional for passado retorna uma msg usando ele
 		return '$result do numero $telefone';
@@ -103,6 +119,24 @@ Percebeu algo diferente ?
 Na nossa assinatura da função ( o que está entre os parênteses) também colocamos entre chaves `{ }`, é dessa forma que demonstramos que os parâmetros serão nomeados.
 
 Nossa chamada da função também mudou, agora temos que dizer explicitamente em qual parâmetro vamos colocar nossos dados. Na nossa função criamos o parâmetro nome, então na nossa chamada passaremos o dado assim `diga(nome: 'Seu Nome');` e como estamos especificando para qual parâmetro nosso valor vai podemos chamar na ordem que quisermos, note que o terceiro `print`  inverte a ordem, e antes tínhamos um erro quando fazíamos isso.
+
+Como por padrão estes valores são opcionais, existe um modo de obrigar que eles sejam passados, para isso basta colocar um `required` antes do tipo do parâmetro, como no exemplo abaixo.
+
+```dart
+void main(){//definição da função main
+
+  print(diga(nome: 'Patrick', telefone: 12345678)); //Mensagem enviada por Patrick do numero 12345678
+  print(diga(telefone: 12345678, nome: 'Patrick')); //Mensagem enviada por Patrick do numero 12345678
+  print(diga(nome: 'Patrick')); // gera erro, dizendo que o parâmetro 'telefone' é obrigatório
+  print(diga(telefone: 12345678)); // gera erro, dizendo que o parâmetro 'nome' é obrigatório
+}
+
+// função com um parametro opcional obrigatório
+String diga({required String nome, required int telefone}){
+  var result = 'Mensagem enviada por $nome';
+  return '$result do numero $telefone';
+}
+```
 
 <p align="center">
   <a href="06-EstruturasDeRepeticao.md">
