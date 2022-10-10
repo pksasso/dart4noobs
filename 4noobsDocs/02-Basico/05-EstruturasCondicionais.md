@@ -91,6 +91,34 @@ O `case` verifica se o que o switch recebeu tem o mesmo valor que ele, a marcaç
 
 No final temos um `default` que em inglês significa uma opção padrão, é ela que era rodar caso nenhum dos `cases` de certo.
 
+## Operador Ternário
+
+No desenvolvimento é comum de utilizarmos essas estruturas condicionais descritas anteriormente mas existe uma nova possibilidade chamada de operador ternário na qual 
+quando existem apenas duas possibilidades seu uso se torna mais vantajoso comparado aos anteriores.
+
+Sua estrutura funciona assim
+```
+condição? valor se for verdareiro : valor se for falso
+```
+
+Vamos pegar o exemplo citado no topico IF Else:
+
+``
+Se usuario é Patrick, 'Bem Vindo Patrick', senao 'Usuário não reconhecido'
+``
+
+Esta logica pode ser transcrita para codigo da seguinte forma:
+Exemplo:
+
+```dart
+  String name = 'Patrick';
+  String mensagem = ( name == 'Patrick' ? 'Seja bem vindo Patrick !' : 'Usuário não reconhecido');
+  print(mensagem);
+
+```
+Veja que em nosso exemplo o codigo ficou mais limpo e foi utilizado menos linhas de codigo se comparado ao ``IF Else``
+
+
 <p align="center">
   <a href="04-Operadores.md">
     <img src="../../4noobsAssets/anterior.svg" height=35>
