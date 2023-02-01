@@ -3,7 +3,21 @@
 
 ## 1 - Ponto e virgula ( ; )
 
-No dart ao fim de todo comando é necessário colocar um `;` no final.
+No dart ao fim de toda instrução simples é necessário colocar um `;` no final.
+Existem as instruções complexas, ou compostas, as quais são executadas dentro de um *bloco*. Esse bloco é delimitado usando-se {} *chaves*;
+
+```dart
+void main()
+{
+  print('Hello World!');
+  print('What a wonderful world!');
+  print('Ohhh yees!');
+  print('By Louis Armstrong');
+}
+```
+
+As chaves foram destacadas para indicar o bloco de instruções.
+
 
 ## 2 - Comentários
 
@@ -27,7 +41,7 @@ desta maneira
   <a href="00-Introducao.md">
     <img src="../../4noobsAssets/anterior.svg" height=35>
   </a>
-  <a href="02-TiposPrimitivos.md">
+  <a href="02-Tipos.md">
     <img src="../../4noobsAssets/proximo.svg" height=35>
   </a>
 </p>

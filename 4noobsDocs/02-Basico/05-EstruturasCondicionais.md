@@ -93,8 +93,7 @@ No final temos um `default` que em inglês significa uma opção padrão, é ela
 
 ## Operador Ternário
 
-No desenvolvimento é comum de utilizarmos essas estruturas condicionais descritas anteriormente mas existe uma nova possibilidade chamada de operador ternário na qual 
-quando existem apenas duas possibilidades seu uso se torna mais vantajoso comparado aos anteriores.
+No desenvolvimento é comum de utilizarmos essas estruturas condicionais descritas anteriormente mas existe uma nova possibilidade chamada de operador ternário para quando existem apenas duas possibilidades seu uso se torna mais vantajoso comparado aos anteriores.
 
 Sua estrutura funciona assim
 ```
@@ -117,7 +116,7 @@ Exemplo:
 
 ```
 Veja que em nosso exemplo o codigo ficou mais limpo e foi utilizado menos linhas de codigo se comparado ao ``IF Else``
-
+Uma curiosidade: este operador ternário comumente é chamado de Elvis operator :-)
 
 <p align="center">
   <a href="04-Operadores.md">

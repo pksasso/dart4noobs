@@ -14,7 +14,7 @@ Caso não inicialize uma variável como algum valor ela por padrão é iniciada 
 
 Por padrão quando não é explicitado se algo é `var` ou `const` ela será uma variável.
 
-A partir da versão do Dart `2.12` foi introduzido o `null safety` e por padão todos os tipos não podem ser anuláveis.
+A partir da versão do Dart `2.12` foi introduzido o `null safety` e por padrão todos os tipos não podem ser anuláveis.
 
 ```dart
 var i = 42; // Inferêcia para o tipo int.
@@ -22,12 +22,15 @@ String name = getFileName();
 final b = Foo(); 
 ```
 
-Para indicar que uma variável pode ter seu valor nulo, basta adicionar `?` à sua declaração de tipo
+Para indicar que uma variável pode ter seu valor nulo, basta adicionar um tipo que permita nulo. O nome deste tipo é o mesmo do que quer utilizar seguido de `?`.
 
 ```dart
 int? aNullableInt = null;
 
 ```
+
+Mas não se engane: '?' não é um operador acrescentado ao tipo e sim um outro tipo, conforme se vê na documentação do dart: [Using nullable types](https://dart.dev/null-safety/understanding-null-safety#using-nullable-types)
+
 
 # Constantes
 
