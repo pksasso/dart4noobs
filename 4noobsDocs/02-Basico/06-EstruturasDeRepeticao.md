@@ -73,9 +73,33 @@ for(int i = 0; i < lista.length; i++){
 */
 ```
 
-Vamos a uma explicação. Você prestou atenção na segunda parte do nosso for ? Viu esse `lista.length`? Então, quando estamos trabalhando com listas temos algumas funções que fazem umas coisas legais pra gente, no caso desse `.length` ele nos retorna o tamanho da nossa lista, nesse caso ele vai retornar o número 10, e como as posições das listas começam a ser contadas pela 0 a última posição no nosso caso será a 9. Lembra também como pegar um valor que esteja em uma posição específica da lista ? Então, como o nosso `i` passa por todas as posições da nossa lista usamos ele para fazer nosso `print`, dessa forma as cada repetição do loop ele irá printar a próxima posição, até chegar na ultima, quando ele irá parar.
+Vamos a uma explicação. Você prestou atenção na segunda parte do nosso for? Viu esse `lista.length`? Então, quando estamos trabalhando com listas temos algumas funções que fazem umas coisas legais pra gente, no caso desse `.length` ele nos retorna o tamanho da nossa lista, nesse caso ele vai retornar o número 10, e como as posições das listas começam a ser contadas pela 0 a última posição no nosso caso será a 9. Lembra também como pegar um valor que esteja em uma posição específica da lista ? Então, como o nosso `i` passa por todas as posições da nossa lista usamos ele para fazer nosso `print`, dessa forma as cada repetição do loop ele irá printar a próxima posição, até chegar na ultima, quando ele irá parar.
 
 É importante pontuar que nós precisamos definir muito bem quando o nosso loop for parar, pois no caso de listas se você tentar pegar uma posição que não exista nós teremos um erro dizendo que a posição que você pediu não existe.
+
+Entretanto existe uma forma mais segura de percorrermos uma lista completa: for..in:
+
+```dart
+var lista = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+
+for(var numero in lista){
+  print(numero);
+}
+/*
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+```
+
+Neste caso, toda a lista será percorrida, cada valor será armazenado na variável *numero* e processada. No nosso caso estamos imprimindo o valor no console.
 
 ## While
 

@@ -55,6 +55,7 @@ Com esse pequeno curso você consegue entender melhor como funciona a base da li
 5. [Estruturas Condicionais](./4noobsDocs/02-Basico/05-EstruturasCondicionais.md)
 6. [Estruturas de Repetição](./4noobsDocs/02-Basico/06-EstruturasDeRepeticao.md)
 7. [Funções](./4noobsDocs/02-Basico/07-Funcoes.md)
+8. [Collecitons](./4noobsDocs/02-Basico/08-Collections.md)
 
 <!-- CONTRIBUTING -->
 
